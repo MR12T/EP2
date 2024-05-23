@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color1: #0b5000;
+    --color2:#ffdfb8;
+    --color3:#ccc;
+    --color4: #7d4100;
+}
+main{
+    padding: 15px;
+    margin:1px;
+}
+header{
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 4px solid red;
+}
+header img{
+    height: 150px; 
+    margin-right: auto;
+}
+.menu{
+    list-style-type: none;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+     font-style: normal;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+#menu1 ul{
+    padding: 0;
+}
+#menu1 ul li{
+    display: inline;
+    justify-content: end;
+    margin: 80px;  
+}
+
+#menu1 ul li a img{
+    height: 50px;
+}
+.boton{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+}
+#boton1{
+    background-color: black;
+    color: white;
+}
+#boton1:hover{
+    background-color: white;
+    color: #000000;
+}
+#boton2:hover{
+    background-color: black;
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid var(--color3);
+    border-radius: 25px;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.contenedor img{
+    width: 600px;
+    height: 300px;
+    border-radius: 50px;
+}
+.texto{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.texto a{
+    border: 1px solid #000000;
+    padding: 8px;
+    margin: 0;
+    border-radius: 15px;
+    text-decoration: none;
+    color: var(--color2);
+    background-color:var(--color1);
+}
+.texto a:hover{
+    color: var(--color1);
+    background-color: var(--color2);
+}
+#texto1{
+    margin-right: 8em;
+}
+#texto2{
+    margin-left: 8em;
+}
+#contenedor1{  
+    flex-direction: row;
+    background-color: var(--color4);
+    color: var(--color3);
+  }
+
+  
+  #contenedor2 {  
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    background-color: var(--color3);
+    color: var(--color4);
+  }
+ 
+  #menu2 ul{ 
+    padding: 40px;
+    text-align: center;
+    flex-wrap: wrap;
+    border-top: 2px solid brown;
+    border-bottom: 2px solid brown;
+    margin-top: 15px;
+}
+#menu2 ul li {
+    display:inline;
+    padding: 70px;
+      
+}
+footer{
+    padding: 10px;
+    margin: 5px;
+    
+}
+.rs{
+    height: 30px;
+    width: 30px;
+}
+footer p{
+    padding: 0px;
+    margin: 0px;
+}
+#rating{
+    height: 70px;
+    width: 100px;
+    margin-left: 78em;
+}
+
+
+
